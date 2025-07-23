@@ -114,9 +114,14 @@ p {
   scroll-snap-align: start;
 }
 .mokup-item img {
-  width: 234px;
-  height: 491px;
+  width: 246px;
+  height: 477px;
 }
+.mokup-item .android-image img {
+  width: 224px !important;
+  height: 477px;
+}
+
 .mokup h3 {
   display: inline-block;
   width: fit-content;
@@ -308,6 +313,7 @@ p {
   .popup {
     max-width: 400px;
     width: 100%;
+    padding: 20px;
   }
   .hero-content .ma-btn {
     display: inline-block;
@@ -337,10 +343,6 @@ p {
   .mokup-item {
     padding: 20px;
   }
-  .mokup-item img {
-    width: 200px;
-    height: 450px;
-  }
 }
 @media (max-width: 320px) {
   body {
@@ -365,13 +367,13 @@ p {
   .mokup-item {
     padding: 20px;
   }
-  .mokup-item img {
-    width: 200px;
-    height: 400px;
-  }
   .popup {
     max-width: 300px;
     width: 100%;
     padding: 15px;
+  }
+  .mokup-item img {
+    width: 200px;
+    height: 388px;
   }
 }
