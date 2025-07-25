@@ -45,6 +45,9 @@ p {
 .ma-btn:hover {
     transform: scale(0.9);
 }
+.hero-content h1 {
+  margin-bottom: 20px;
+}
 
 /* FIRST SCREEN */
 .mobileapp-breadcrumb {
@@ -279,8 +282,11 @@ p {
   }
 }
 @media (max-width: 450px) {
-  .heading-h2, .heading-h3, .block-bonus span {
+  .heading-h1, .heading-h2, .heading-h3, .block-bonus span {
     font-size: 24px;
+  }
+  .heading-h1 {
+    max-width: 200px;
   }
   .hero-content {
     background-position: 45% 40%;
